@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+message Users {
+    int32 id = 1;
+    string name = 2;
+    string senha = 3;
+    string email = 4;
+    int64 criado_em = 5;
+}
